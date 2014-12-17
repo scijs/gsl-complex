@@ -15,12 +15,34 @@ var complex = require("gsl-complex");
 
 ## API
 
+See [https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html](https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html) for a description of the following functions. The prefix `gsl_complex_` was removed from the original function definitions. For example, while in C you would call `gsl_complex_arg()`, the function is exported simply as `arg()`. 
+
+Example:
+```
+var x = complex.rect(3,2);
+complex.abs(x);
+```
+
+Output:
+```
+3.605551275463989
+```
+
 ### Complex numbers
 
 | Function  | Parameters | Description |
 | ------------- | ----- | ----------- |
 | rect | (real, imag) | creates a complex number, real+i*imag |
 | polar | (r, theta) | creates a complex number in polar form, r e^(i theta) |
+
+Two following getter and setter functions have been defined for the complex number object:
+
+| Function  | Parameters | Description |
+| ------------- | ----- | ----------- |
+| get_real |  | retrieves the real part  |
+| get_imag | | retrieves the imaginary part |
+| set_real | x | sets the real part equal to x |
+| set_imag | y  | sets the imaginary part equal to y |
 
 ### Properties of complex numbers
 
