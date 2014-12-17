@@ -5,10 +5,12 @@ complex numbers for JS via GNU Scientic Library. The original C code was transpi
 
 ## Installation
 
+Via npm:
 ```
 npm install gsl-complex
 ```
 
+To use it inside node:
 ```
 var complex = require("gsl-complex");
 ```
