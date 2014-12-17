@@ -88,6 +88,12 @@ typedef struct
     double get_imag() {
         return dat[1];
     };
+    void set_real(double x) {
+      dat[0] = x;
+    };
+    void set_imag(double y) {
+      dat[1] = y;
+    };
   }
 gsl_complex;
 

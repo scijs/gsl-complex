@@ -1031,7 +1031,9 @@ EMSCRIPTEN_BINDINGS(my_module) {
 
   class_<gsl_complex>("gsl_complex")
     .function("get_real",&gsl_complex::get_real)
-    .function("get_imag",&gsl_complex::get_imag);
+    .function("get_imag",&gsl_complex::get_imag)
+    .function("set_real",&gsl_complex::set_real)
+    .function("set_imag",&gsl_complex::set_imag);
 
   function("polar",&gsl_complex_polar);
   function("rect",&gsl_complex_rect);
