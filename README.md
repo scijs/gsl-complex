@@ -1,7 +1,7 @@
 gsl-complex-js
 ==============
 
-complex numbers for JS via GNU Scientic Library. The original C code was transpiled to JS via *emscripten*. 
+complex numbers for JS via GNU Scientific Library. The original C code was transpiled to JS via *emscripten*. 
 
 ## Installation
 
