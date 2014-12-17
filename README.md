@@ -15,7 +15,7 @@ var complex = require("gsl-complex");
 
 ## API
 
-See [https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html](https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html) for a description of the following functions. The prefix `gsl_complex_` was removed from the original function definitions. For example, while in C you would call `gsl_complex_arg()`, the function is exported simply as `arg()`. 
+See [https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html](https://www.gnu.org/software/gsl/manual/html_node/Complex-Numbers.html) for a description of the following functions. The prefix `gsl_complex_` was removed from the original function definitions. For example, while in C you would call `gsl_complex_abs()` to retrieve the magnitude of the complex number, the function is exported simply as `abs()`. 
 
 Example:
 ```
