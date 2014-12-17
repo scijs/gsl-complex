@@ -1,6 +1,6 @@
 {
   "name": "gsl-complex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "complex numbers via GNU Scientific Library",
   "main": "complex.js",
   "scripts": {
