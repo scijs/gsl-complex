@@ -1,0 +1,23 @@
+{
+  "name": "gsl-complex",
+  "version": "0.1.0",
+  "description": "complex numbers from GNU Scientic Library",
+  "main": "complex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planeshifter/gsl-complex-js.git"
+  },
+  "keywords": [
+    "complex-numbers",
+    "math"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/gsl-complex-js/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/gsl-complex-js"
+}
