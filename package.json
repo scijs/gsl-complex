@@ -1,7 +1,7 @@
 {
   "name": "gsl-complex",
   "version": "0.1.1",
-  "description": "complex numbers from GNU Scientic Library",
+  "description": "complex numbers via GNU Scientific Library",
   "main": "complex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
