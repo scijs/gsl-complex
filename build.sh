@@ -1,1 +1,1 @@
-emcc --bind -o complex.js -I./ complex.cpp
+emcc -O3 --bind -o complex.js -I./ complex.cpp
