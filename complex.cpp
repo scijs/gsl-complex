@@ -1023,10 +1023,6 @@ gsl_complex_arccoth (gsl_complex a)
   return gsl_complex_arctanh (t);
 }
 
-EMSCRIPTEN_BINDINGS(stl_wrappers) {
-    register_vector<double>("VectorDouble");
-}
-
 EMSCRIPTEN_BINDINGS(my_module) {
 
   class_<gsl_complex>("gsl_complex")
